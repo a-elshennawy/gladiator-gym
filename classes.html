@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendors/all.min.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/pages/classes.css">
+    <title>gladiatorgym-classes</title>
+</head>
+
+<body>
+    <!-- navbar1 -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid links">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/icon.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="shop.html">shop</a></li>
+                            <li><a class="dropdown-item" href="plans.html">plans</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trainers.html">trainers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- offcanv -->
+    <div class="offcanv">
+        <!-- offcanvas-buttons -->
+        <div class="offcanvas-buttons">
+            <div class="btn">
+                <a class="button menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+        </div>
+        <!-- offcanvas -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">welcome to Gladiator Gym</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="dropdown mt-3">
+                    <ul class="content">
+                        <li> <a href="index.html">home</a></li>
+                        <li class="dropdown">
+                            <button type="button" class="button dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                pages
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="shop.html">shop</a></li>
+                                <li><a class="dropdown-item" href="plans.html">plans</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="trainers.html">trainers</a></li>
+                        <li><a href="contacts.html">contact</a></li>
+                    </ul>
+                </div>
+               
+                <div class="social">
+                    <div class="icon">
+                        <a href="https://www.instagram.com/shennawyz/">
+                            <i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/shennawyz/">
+                            <i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/shennawyz/">
+                            <i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/shennawyz/">
+                            <i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section class="header">
+        <h3>aside from being a <span>member</span></h3>
+        <h2>we also give <span>special</span> classes</h2>
+    </section>
+    <section class="classes">
+        <div class="container">
+            <div class="row">
+                <div class="card col-lg-3 col-md-10 col-sm-10">
+                    <img src="img/cardio.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cardio</h5>
+                        <p class="card-text">sa-mo-we / 9 am</p>
+                        <p class="card-text">100 <sup>egp</sup> / month</p>
+                        <div class="btn"><a href="#" class="button" data-bs-toggle="modal" data-bs-target="#Cardio">
+                                <p>join</p>
+                            </a></div>
+                        <div class="modal fade" id="Cardio" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="head">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">cardio</h1>
+                                        </div>
+                                        <div class="form">
+                                            <form class="row g-3">
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" id="validationDefault01"
+                                                        placeholder="email" required>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                                        <input type="text" class="form-control"
+                                                            id="validationDefaultUsername"
+                                                            aria-describedby="inputGroupPrepend2" placeholder="Username"
+                                                            required>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="" class="iconbtn cancel fa-sharp-duotone fa-solid fa-ban"
+                                            data-bs-dismiss="modal"></a>
+                                        <a href="" class="iconbtn finish fa-sharp fa-solid fa-circle-check"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-10 col-sm-10">
+                    <img src="img/powerlifting.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">powerlifting</h5>
+                        <p class="card-text">su-tu-th / 6 pm </p>
+                        <p class="card-text">80 <sup>egp</sup> / month </p>
+                        <div class="btn"><a href="#" class="button" data-bs-toggle="modal"
+                                data-bs-target="#powerlifting">
+                                <p>join</p>
+                            </a></div>
+                        <div class="modal fade" id="powerlifting" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <div class="modal-body">
+                                        <div class="head">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">powerlifting</h1>
+                                        </div>
+                                        <div class="form">
+                                            <form class="row g-3">
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" id="validationDefault01"
+                                                        placeholder="email" required>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                                        <input type="text" class="form-control"
+                                                            id="validationDefaultUsername"
+                                                            aria-describedby="inputGroupPrepend2" placeholder="Username"
+                                                            required>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="" class="iconbtn cancel fa-sharp-duotone fa-solid fa-ban"
+                                            data-bs-dismiss="modal"></a>
+                                        <a href="" class="iconbtn finish fa-sharp fa-solid fa-circle-check"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-10 col-sm-10">
+                    <img src="img/boxing.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Boxing</h5>
+                        <p class="card-text">everyday / 5 pm </p>
+                        <p class="card-text">150 <sup>egp</sup> / month </p>
+                        <div class="btn"><a href="#" class="button" data-bs-toggle="modal" data-bs-target="#Boxing">
+                                <p>join</p>
+                            </a></div>
+                        <div class="modal fade" id="Boxing" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="head">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">boxing</h1>
+                                        </div>
+                                        <div class="form">
+                                            <form class="row g-3">
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" id="validationDefault01"
+                                                        placeholder="email" required>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                                        <input type="text" class="form-control"
+                                                            id="validationDefaultUsername"
+                                                            aria-describedby="inputGroupPrepend2" placeholder="Username"
+                                                            required>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="" class="iconbtn cancel fa-sharp-duotone fa-solid fa-ban"
+                                            data-bs-dismiss="modal"></a>
+                                        <a href="" class="iconbtn finish fa-sharp fa-solid fa-circle-check"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
